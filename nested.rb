@@ -119,6 +119,8 @@ def changing_alan
      programmer_hash
 end
 
+
+# "operates on the programmer_hash and adds 'Assembly' to Dennis Ritchie's languages, returning the newly-added-to-hash" do
 def adding_to_dennis
 	programmer_hash = 
  		{
@@ -135,5 +137,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+
+programmer_hash[dennis_ritchie]:languages => ["Assembly"]
 
 end
